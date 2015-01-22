@@ -1,5 +1,7 @@
 #include <iostream>
 
+/* Print out fibonacci sequence */
+
 int fib(int n) {
   if (n == 0) {
     return 0;

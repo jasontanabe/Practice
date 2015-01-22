@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 
+/* Check to see if a string is unique (no repeating) */
+
 int main() {
   std::string string = "abcdefgb";
   bool characters[256];

@@ -1,5 +1,7 @@
 #include <iostream>
 
+/* Check if one string is a substring of another */
+
 bool IsSubstring(const char* string, const char* substr) {
   const char* start = substr;
   if (*substr == '\0') {
