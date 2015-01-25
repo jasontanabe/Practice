@@ -1,6 +1,8 @@
 #include <iostream>
 #include <string>
 
+/* Print out all permutations of a string */
+
 void merge(std::string current, char new_char, std::string string, int index) {
   if (index > string.size()) {
     std::cout << current << std::endl;

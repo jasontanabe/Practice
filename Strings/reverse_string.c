@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+/* reverse a string in place */
+
 int main(int argc, char** argv) {
   char str[] = "abcd";
   if (!str) {
