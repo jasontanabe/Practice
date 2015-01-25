@@ -25,12 +25,8 @@ void swap(int& one, int& two) {
 
 void percolate_up(vector<int>& vec, int index) {
   int parent_index = parent(index);
-  while (parent_index > 0) {
-    if (vec[index] < vec[parent_index]) {
-      swap(vec[index], vec[parent_index]);
-    } else {
-      break;
-    }
+  while (parent_index >= 0 && vec[index] < vec[parent_index]) {
+    swap(vec[index], vec[parent_index]);
     index = parent_index;
     parent_index = parent(index);
   }
